@@ -1,1 +1,1 @@
-require('.').doAsyncThing();
+require('.').doAsyncThing(() => {});

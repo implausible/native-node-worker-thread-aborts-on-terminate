@@ -1,7 +1,7 @@
 {
   "name": "native-node-tests",
   "version": "1.0.0",
-  "main": "build/Release/native-node-tests.node",
+  "main": "build/Debug/native-node-tests.node",
   "license": "MIT",
   "scripts": {
     "test": "node -e \"w = new (require('worker_threads').Worker)('./runDoAsyncThing.js'); setTimeout(w.terminate.bind(w), 2000);\""
